@@ -1,11 +1,16 @@
-var a = 3,
+var a = prompt('jaka wartosc'),
 	b = 4,
 	value;
-value = (a * a) + (2 * a * b) - (b * b)
+
+value = (a * a) + (2 * a * b) - (b * b);
 console.log(value);
 alert ('wynik=' + value);
-if (value >= 0) {
-alert ('wynik dodatni')
-} else { (value = 0) 
-alert ('wynik = 0')
+
+if (value > 0) {
+	alert ('wynik dodatni');
+} else if (value == 0) {
+	alert ('wynik = 0');
+} else {
+	alert('wynik jest ujemny');
 }
+  
